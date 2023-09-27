@@ -1,5 +1,4 @@
-; Faça um programa que atribua aos registradores AL, BL, CL e DL, os valores FA; FB; FC e FD
-respectivamente.
+; Faça um programa que atribua aos registradores AL, BL, CL e DL, os valores FA; FB; FC e FD respectivamente.
 
 	mov	al,FA
 	mov	bl,FB
@@ -15,8 +14,7 @@ respectivamente.
 
 __________________________________________________
 
-; Faça um programa, a partir do anterior, que troque o conteúdo dos registradores AL e DL; BL e
-CL, utilizando instruções PUSH e POP
+; Faça um programa, a partir do anterior, que troque o conteúdo dos registradores AL e DL; BL e CL, utilizando instruções PUSH e POP
 
 	mov	dl,FE
 	mov	bl,10
@@ -29,12 +27,10 @@ CL, utilizando instruções PUSH e POP
 
 __________________________________________________
 
-; O Programa abaixo executa um laço sobre uma área de memória onde encontra-se armazenada a
-cadeia de caracteres “BRASIL”, os registradores BL, CL e DL desempenham importante papel
-para a execução do programa. Digite e execute o programa abaixo e, em seguida responda:
+; O Programa abaixo executa um laço sobre uma área de memória onde encontra-se armazenada acadeia de caracteres “BRASIL”, os registradores BL, CL e DL desempenham importante papel para a execução do programa. Digite e execute o programa abaixo e, em seguida responda:
 
 ; Qual a função do registrador CL? Explique porque ele foi inicializado com o valor C0.
-; R; é usado para rastrear a posição onde a cópia será armazenada e é inicializado com C0, que é um valor específico da posição de memória.
+; R: é usado para rastrear a posição onde a cópia será armazenada e é inicializado com C0, que é um valor específico da posição de memória.
 
 ; Qual a função do registrador DL ? Explique porque ele foi inicializado com o valor 10.
 
