@@ -30,7 +30,7 @@ __________________________________________________
 ; O Programa abaixo executa um laço sobre uma área de memória onde encontra-se armazenada acadeia de caracteres “BRASIL”, os registradores BL, CL e DL desempenham importante papel para a execução do programa. Digite e execute o programa abaixo e, em seguida responda:
 
 ; Qual a função do registrador CL? Explique porque ele foi inicializado com o valor C0.
-; R: é usado para rastrear a posição onde a cópia será armazenada e é inicializado com C0, que é um valor específico da posição de memória.
+R: é usado para rastrear a posição onde a cópia será armazenada e é inicializado com C0, que é um valor específico da posição de memória.
 
 ; Qual a função do registrador DL ? Explique porque ele foi inicializado com o valor 10.
 
