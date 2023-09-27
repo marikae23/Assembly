@@ -1,4 +1,4 @@
-Faça um programa que atribua aos registradores AL, BL, CL e DL, os valores FA; FB; FC e FD
+; Faça um programa que atribua aos registradores AL, BL, CL e DL, os valores FA; FB; FC e FD
 respectivamente.
 
 	mov	al,FA
@@ -7,4 +7,8 @@ respectivamente.
 	mov	dl,FD
 	end
 
-
+	mov	dl,FE
+	mov	[10],DL
+	mov	bl,10
+	mov	al,[BL]
+	end
