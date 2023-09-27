@@ -12,6 +12,7 @@ respectivamente.
 	mov	bl,10
 	mov	al,[BL]
 	end
+__________________________________________________
 
 ; Faça um programa, a partir do anterior, que troque o conteúdo dos registradores AL e DL; BL e
 CL, utilizando instruções PUSH e POP
