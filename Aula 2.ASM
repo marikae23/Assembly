@@ -11,4 +11,11 @@
 	out	01
 	END
 
+; Display que acenda C e E.
+
+in	00
+	mov	al,F5
+	mov	al,F0
+	out	02
+	end
 	
