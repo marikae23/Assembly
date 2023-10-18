@@ -23,3 +23,14 @@
   	in 	00
 	mov	[90], al
 	end
+
+; Limite o valor da tecla.
+le:	in	00
+	cmp	al,60
+	jz	le
+	js	le
+	cmp	al,7B
+	jz	le
+	js	le
+	mov	[90],al
+	end
