@@ -18,4 +18,8 @@
 	mov	al,F0
 	out	02
 	end
-	
+
+; Armazene o valor recebido no endereço de memória.
+  	in 	00
+	mov	[90], al
+	end
