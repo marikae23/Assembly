@@ -1,3 +1,7 @@
+;Faça um programa, a partir do exercício anterior, que utiliza os dados armazenados
+;na memória de 6016 a 6F16 e os transfira para a pilha BF16 a B016, utilizando as
+;instruções push e pop. 
+
 	mov	cl,60 ; Inicializa o contador de loop (cl) com 60
 	mov	al,05 ; Inicializa o registrador al com 5
 	mov	dl,10 ; Inicializa o registrador dl com 10
@@ -20,6 +24,7 @@ soma:	mov	[cl],al ; Etiqueta 'soma' - início do loop e Armazena o valor do regi
 	end
 
 
+; Inicie o registrador DL com o valor 1610, após isso execute a instrução SHR DL
 	mov	cl,60
 	mov	dl,10
 empilha:
