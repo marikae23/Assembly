@@ -18,3 +18,14 @@ soma:	mov	[cl],al ; Etiqueta 'soma' - início do loop e Armazena o valor do regi
 	mov	[70],al ; Armazena o valor do registrador AL na memória no endereço 70h
 
 	end
+
+
+	mov	cl,60
+	mov	dl,10
+empilha:
+	mov	al,[cl]
+	push	al
+	inc	cl
+	dec 	dl
+	jnz	empilha
+	end
